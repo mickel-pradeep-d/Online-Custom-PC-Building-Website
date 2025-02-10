@@ -1,4 +1,4 @@
-#LIGHTNING TECHS
+# LIGHTNING TECHS
 
 # 💻 PC Component Store - Build Your Own PC 🖥️  
 
