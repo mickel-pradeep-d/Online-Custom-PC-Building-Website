@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LIGHTNING TECHS</h1>
+        <h3>Build Your Own PC</h3>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <div class="container">
+        <div class="category-buttons">
+            <button class="category-btn" data-category="Monitors">Monitors</button>&emsp;
+            <button class="category-btn" data-category="Motherboards">Motherboards</button>&emsp;
+            <button class="category-btn" data-category="SMPS">SMPS</button>&emsp;
+            <button class="category-btn" data-category="Processors">Processors</button>&emsp;
+            <button class="category-btn" data-category="RAM">RAM</button><br><br>&emsp;
+            
+            <button class="category-btn" data-category="Storage">Storage Devices</button>&emsp;
+            <button class="category-btn" data-category="Cabinets">Cabinets</button>&emsp;
+            <button class="category-btn" data-category="Keyboard">Keyboards</button>&emsp;
+            <button class="category-btn" data-category="Mouse">Mouses</button>&emsp;
+        </div>
+
+        <section class="product-list" id="product-container"></section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

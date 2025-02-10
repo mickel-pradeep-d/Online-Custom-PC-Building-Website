@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(255, 255, 255), rgb(0, 0, 0));
+    color : rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: red;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

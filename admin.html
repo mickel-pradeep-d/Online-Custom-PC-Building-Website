@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+        <a href="mainpage.html" class="home-link">Go to Main Page</a>
+    </header>
+
+    <div class="container">
+        <h2>Add New Product</h2>
+        <form id="add-product-form">
+            <label>Category:</label>
+            <div class="category-buttons">
+                <button type="button" class="category-btn" data-category="Monitors">Monitors</button>&emsp;
+                <button type="button" class="category-btn" data-category="Motherboards">Motherboards</button>&emsp;
+                <button type="button" class="category-btn" data-category="SMPS">SMPS</button>&emsp;
+                <button type="button" class="category-btn" data-category="Processors">Processors</button>&emsp;
+                <button type="button" class="category-btn" data-category="RAM">RAM</button><br><br>&emsp;
+                <button type="button" class="category-btn" data-category="Storage">Storage Devices</button>&emsp;
+                <button type="button" class="category-btn" data-category="Cabinets">Cabinets</button>&emsp;
+                <button type="button" class="category-btn" data-category="Keyboard">Keyboards</button>&emsp;
+                <button type="button" class="category-btn" data-category="Mouse">Mouses</button>
+            </div>
+            <input type="hidden" id="category" required>
+            <br>
+            <label>Brand:</label>
+            <input type="text" id="brand" required>
+
+            <label>Model:</label>
+            <input type="text" id="model" required>
+
+            <label>Price:</label>
+            <input type="number" id="price" required>
+
+            <button type="submit">Add Product</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
